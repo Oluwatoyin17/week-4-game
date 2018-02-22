@@ -36,7 +36,7 @@ function newGame(){
     yellowNum = Math.floor(Math.random()*12)+1;
     greenNum = Math.floor(Math.random()*12)+1;
     score = 0;
-//These are added because i only want the number to be guessed and the total store to reset
+//These are added because i only want the number to be guessed and the total score to reset
     $("#value").text(numberToGuess);
     $("#totalScore").text(score);
     console.log(score);
